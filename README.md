@@ -35,10 +35,8 @@ docker build -t dice-mcp-server .
 
 ## 📚 What's Included
 
-### 🎲 **Complete Working Examples**
-- **Dice Roller** - Fun D&D dice rolling MCP server
-- **Toggl Timer** - Control your time tracking via AI
-- **Kali Hacking** - Ethical hacking tools through MCP
+### 🎲 **Complete Working Example**
+- **Dice Roller** - Fun D&D dice rolling MCP server with all files ready to run
 
 ### 🛠️ **MCP Builder Prompt**
 NetworkChuck's custom prompt that generates complete MCP servers from simple descriptions. Just describe what you want, and it creates everything!
@@ -56,10 +54,8 @@ Every tool, link, and resource mentioned in the video, organized and ready to us
 
 ```
 docker-mcp-tutorial/
-├── examples/                    # Complete working MCP servers
-│   ├── dice-roller/            # D&D dice rolling server
-│   ├── toggl-timer/           # Time tracking integration
-│   └── kali-hacking/          # Ethical hacking tools
+├── examples/                    # Complete working MCP server
+│   └── dice-roller/            # D&D dice rolling server
 ├── mcp-builder-prompt/         # AI prompt to generate MCP servers
 ├── quick-start/               # Get running in 5 minutes
 ├── docs/                      # Detailed documentation
@@ -124,7 +120,7 @@ Use the OpenWeather API"
 
 The AI will generate all files needed: Dockerfile, Python server, configuration, and installation instructions!
 
-## 🎮 Example Servers Included
+## 🎮 Example Server Included
 
 ### 🎲 Dice Roller
 Perfect for D&D and tabletop gaming:
@@ -133,19 +129,7 @@ Perfect for D&D and tabletop gaming:
 - Advantage/disadvantage rolls
 - Skill checks against DC
 
-### ⏱️ Toggl Timer
-Control your time tracking:
-- Start/stop timers
-- View current timers
-- Create time entries
-- Track project time
-
-### 💀 Kali Hacking (Educational)
-Ethical hacking tools via MCP:
-- Network scanning (nmap)
-- Web vulnerability testing
-- SQL injection testing
-- WordPress scanning
+**Note:** The video also demonstrates building Toggl Timer and Kali Linux MCP servers. Use the MCP Builder Prompt to create these or any other server you can imagine!
 
 ## 🔧 Docker MCP Gateway
 
